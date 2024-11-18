@@ -9,6 +9,8 @@ Package license: Apache-2.0
 
 Summary: CLI toolkit for working with Akamai's APIs
 
+Development: https://github.com/akamai/cli
+
 Current build status
 ====================
 
