@@ -28,6 +28,7 @@ about:
     - LICENSE
     - license-files/
   summary: CLI toolkit for working with Akamai's APIs
+  dev_url: https://github.com/akamai/cli
 
 extra:
   recipe-maintainers:
