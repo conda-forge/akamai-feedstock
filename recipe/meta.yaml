@@ -1,5 +1,5 @@
 {% set name = "akamai" %}
-{% set version = "1.6.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/akamai/cli/archive/v{{ version }}.tar.gz
-  sha256: dede02e8809659f752415e55e5d1a42134d1c6f131dd2cd7b02ed91532848b61
+  sha256: f9657d51f971ef6f65a6dd8f2f7791d78afd7e1065989ceb552f1701f5434927
 
 build:
   number: 0
