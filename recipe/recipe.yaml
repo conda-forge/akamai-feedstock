@@ -1,0 +1,37 @@
+schema_version: 1
+
+context:
+  version: 2.0.2
+
+package:
+  name: akamai
+  version: ${{ version }}
+
+source:
+  url: https://github.com/akamai/cli/archive/v${{ version }}.tar.gz
+  sha256: aa51202c2be133d10c9a34e942749c1359f9e6a4ba6f121d37f05c917d0acde7
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - ${{ compiler('go-nocgo') }}
+    - go-licenses
+
+tests:
+  - script:
+      - akamai --help
+
+about:
+  license: Apache-2.0
+  license_file:
+    - LICENSE
+    - license-files/
+  summary: CLI toolkit for working with Akamai's APIs
+  homepage: https://github.com/akamai/cli
+  repository: https://github.com/akamai/cli
+
+extra:
+  recipe-maintainers:
+    - danielnachun
