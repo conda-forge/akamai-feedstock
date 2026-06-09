@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.0.3"
+  version: "2.0.4"
 
 package:
   name: akamai
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/akamai/cli/archive/v${{ version }}.tar.gz
-  sha256: 75859266f9a4f0967bd06f86a6b8d83629fbe549e437a259dfc61c5ad13c7ca6
+  sha256: 5f0d5217e3434fc57bfc821519379a1705ed749ae754853ea1d40ff65e21eb69
 
 build:
   number: 0
